@@ -17,6 +17,9 @@ public class Loan {
     public double getRate (){
         return rate;
     }
+    //public double calculateAmount(){
+        //amount
+    }
     public static void main (String[]args){ // our main method
         Loan misha = new Loan(20000, 0.2, 2);
         Loan james = new Loan(10_0000, 0.18, 10);
