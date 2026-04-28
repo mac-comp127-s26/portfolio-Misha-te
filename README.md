@@ -43,6 +43,20 @@ The program uses the **Scanner** class in Java to accept user input from the key
 - **Visual Studio Code**
 - **Java Extension Pack**
 
+# Sample Outputs for Grades Program
+
+## 🟢 A Grade Example
+```text
+Enter your name: Misha
+Enter Midterm 1 score: 95
+Enter Midterm 2 score: 92
+Enter Final Exam score: 94
+Enter Extra Credit: 1
+
+Your average score is: 93.05
+Great Work Misha
+Your final letter grade is: A
+
 ## How to Run the Program
 
 ### Option 1: Run in VS Code
@@ -57,6 +71,7 @@ The program uses the **Scanner** class in Java to accept user input from the key
 ```bash
 javac Grades.java
 java Grades
+exit
 
 ## Disclosures and AI
 I refined the readMe using  ChatGPT
