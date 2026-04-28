@@ -46,7 +46,7 @@ The program uses the **Scanner** class in Java to accept user input from the key
 # Sample Outputs for Grades Program
 
 ## 🟢 A Grade Example
-```text
+
 Enter your name: Misha
 Enter Midterm 1 score: 95
 Enter Midterm 2 score: 92
@@ -68,10 +68,10 @@ Your final letter grade is: A
 
 ### Option 2: Run in Terminal
 
-```bash
+
 javac Grades.java
 java Grades
-exit
+
 
 ## Disclosures and AI
 I refined the readMe using  ChatGPT
