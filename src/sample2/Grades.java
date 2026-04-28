@@ -55,7 +55,7 @@ public class Grades {
         sc.close();
 
         double finalGrade = (0.15*grades.getMidterm1())+(0.2*grades.getMidterm2())+(0.65*grades.getFinalExam())+grades.getExtra();
-        System.out.println("Your score is: "+finalGrade);
+        System.out.println("Your average score is: "+finalGrade);
 
         String letterGrade;
         if(finalGrade>90 && finalGrade<=100){
@@ -72,10 +72,10 @@ public class Grades {
             System.out.println("Not a great score "+name);
         }else if(finalGrade>50 && finalGrade<60){
             letterGrade = "F";
-            System.out.println("Failed "+name);
+            System.out.println("YouFailed "+name);
         }else{
             letterGrade = "NC";
-            System.out.println("No credit "+name);
+            System.out.println("No credit, Try again next semester "+name);
         }
         System.out.println("Your final letter grade is: "+letterGrade);
     }
